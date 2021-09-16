@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components';
 
-export const Wrapper = styled.div`
+export const Paragraph = styled.p`
   ${({ theme }) => css`
-    background: ${theme.colors.secondaryBg};
+    font-size: ${theme.fonts.sizes.small};
   `}
 `;
