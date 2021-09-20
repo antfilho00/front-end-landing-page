@@ -1,5 +1,5 @@
 import P from 'prop-types';
-import { MenuLink } from '../MenuLink/styles';
+import { MenuLink } from '../MenuLink';
 import * as Styled from './styles';
 
 export const NavLinks = ({ links = [] }) => {
@@ -13,7 +13,6 @@ export const NavLinks = ({ links = [] }) => {
 };
 
 NavLinks.propTypes = {
-  children: P.node.isRequired,
   links: P.arrayOf(
     P.shape({
       children: P.string.isRequired,
