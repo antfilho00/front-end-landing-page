@@ -8,7 +8,7 @@ export const LogoLink = styled.a`
     align-items: center;
 
     > img {
-      max-height: 2.5rem;
+      height: 3rem;
     }
   `}
 `;

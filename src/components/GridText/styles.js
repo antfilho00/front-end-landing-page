@@ -1,10 +1,10 @@
 import styled, { css } from 'styled-components';
 import { Title as HeadingContainer } from '../Heading/styles';
-import { Container as TextComponent } from '../TextComponent/styles';
+import { Paragraph } from '../TextComponent/styles';
 
 export const Container = styled.div`
   ${({ theme }) => css`
-    ${TextComponent} {
+    ${Paragraph} {
       margin-bottom: ${theme.spacings.xhuge};
     }
   `}
